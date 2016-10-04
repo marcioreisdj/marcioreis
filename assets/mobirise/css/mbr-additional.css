@@ -8,110 +8,114 @@
 
 
 
-
-#ext_menu-15 .hide-buttons .nav-btn {
+#index-ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
-#ext_menu-15 .navbar-caption {
+#index-ext_menu-0 .navbar-caption {
+  color: #ffffff;
+}
+#index-ext_menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#index-ext_menu-0 .close-icon::before,
+#index-ext_menu-0 .close-icon::after {
+  background-color: #ffffff;
+}
+#index-ext_menu-0 .link,
+#index-ext_menu-0 .dropdown-item {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
-#ext_menu-15 .navbar-toggler {
-  color: #fac51c;
-}
-#ext_menu-15 .close-icon::before,
-#ext_menu-15 .close-icon::after {
-  background-color: #fac51c;
-}
-#ext_menu-15 .link,
-#ext_menu-15 .dropdown-item {
-  color: #fac51c;
-  font-family: 'Montserrat', sans-serif;
-}
-#ext_menu-15 .link {
+#index-ext_menu-0 .link {
   font-size: 1rem;
 }
-#ext_menu-15 .dropdown-item,
-#ext_menu-15 .nav-dropdown-sm .link {
+#index-ext_menu-0 .dropdown-item,
+#index-ext_menu-0 .nav-dropdown-sm .link {
   font-size: 1.083rem;
 }
-#ext_menu-15 .link:hover,
-#ext_menu-15 .dropdown-item:hover,
-#ext_menu-15 .link:focus,
-#ext_menu-15 .dropdown-item:focus {
-  color: #c0a375;
+#index-ext_menu-0 .link:hover,
+#index-ext_menu-0 .dropdown-item:hover,
+#index-ext_menu-0 .link:focus,
+#index-ext_menu-0 .dropdown-item:focus {
+  color: #ffffff;
 }
-#ext_menu-15 .link[aria-expanded="true"],
-#ext_menu-15 .dropdown-menu {
-  background: #0e0e0e;
+#index-ext_menu-0 .link[aria-expanded="true"],
+#index-ext_menu-0 .dropdown-menu {
+  background: #171c2c;
 }
-#ext_menu-15 .nav-dropdown-sm .link:focus,
-#ext_menu-15 .nav-dropdown-sm .link:hover,
-#ext_menu-15 .nav-dropdown-sm .dropdown-item:focus,
-#ext_menu-15 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+#index-ext_menu-0 .nav-dropdown-sm .link:focus,
+#index-ext_menu-0 .nav-dropdown-sm .link:hover,
+#index-ext_menu-0 .nav-dropdown-sm .dropdown-item:focus,
+#index-ext_menu-0 .nav-dropdown-sm .dropdown-item:hover {
+  background: #232c44!important;
 }
-#ext_menu-15 .navbar,
-#ext_menu-15 .nav-dropdown-sm,
-#ext_menu-15 .nav-dropdown-sm .link[aria-expanded="true"],
-#ext_menu-15 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
+#index-ext_menu-0 .navbar,
+#index-ext_menu-0 .nav-dropdown-sm,
+#index-ext_menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#index-ext_menu-0 .nav-dropdown-sm .dropdown-menu {
+  background: #28324e;
 }
-#ext_menu-15 .bg-color.transparent .link {
-  color: #fac51c;
+#index-ext_menu-0 .bg-color.transparent .link {
+  color: #ffffff;
   transition: none;
 }
-#ext_menu-15 .bg-color.transparent.opened .link {
+#index-ext_menu-0 .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#ext_menu-15 .bg-color.transparent.opened .link:hover,
-#ext_menu-15 .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
-}
-#ext_menu-15 .link[aria-expanded="true"],
-#ext_menu-15 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
-}
-#ext_menu-15 .navbar-caption SPAN {
-  font-family: 'Montserrat', sans-serif;
-}
-#header4-0 P {
-  text-align: left;
+#index-ext_menu-0 .bg-color.transparent.opened .link:hover,
+#index-ext_menu-0 .bg-color.transparent.opened .link:focus {
   color: #ffffff;
 }
-#header4-0 H1 {
-  color: #fac51c;
+#index-ext_menu-0 .link[aria-expanded="true"],
+#index-ext_menu-0 .dropdown-item[aria-expanded="true"] {
+  color: #ffffff!important;
 }
-#msg-box1-6 H2 {
-  text-align: right;
-  color: #fac51c;
+#index-pricing-table2-0 .mbr-plan-header,
+#index-pricing-table2-0 .mbr-plan-body {
+  background-color: #f4f4f4;
+}
+#index-pricing-table2-0 ul,
+#index-pricing-table2-0 .mbr-plan-title,
+#index-pricing-table2-0 .mbr-price-value,
+#index-pricing-table2-0 .mbr-price-figure,
+#index-pricing-table2-0 .mbr-price-term {
+  color: #28262b;
+}
+#index-pricing-table2-0 .mbr-plan {
+  border-color: #e8e8e8;
+}
+#index-pricing-table2-0 .mbr-plan .list-group-item {
+  border-color: #cfcfcf;
+}
+#index-pricing-table2-0 .mbr-section__container .mbr-section-title {
+  color: #28324e;
+  text-align: center;
+}
+#index-pricing-table2-0 .mbr-plan-title {
+  font-size: 18px;
+  color: #28324e;
+}
+#index-pricing-table2-0 .mbr-price-term {
+  color: #28324e;
+}
+#index-pricing-table2-0 .mbr-price-figure {
+  color: #28324e;
+}
+#index-pricing-table2-0 .mbr-plan-price-desc {
+  color: #475577;
   font-size: 18px;
 }
-#msg-box1-6 H3 {
-  text-align: right;
+#marcioreis-contacts4-0 STRONG {
+  color: #7e9b9f;
 }
-#msg-box2-10 .mbr-section-title {
-  color: #fff;
-}
-#msg-box2-10 .mbr-section-subtitle {
-  color: #282828;
-  font-size: 22px;
-}
-#gallery1-9 .mbr-gallery-item > a > span {
-  text-align: right;
-}
-#contacts3-17 .list-group-text {
+#marcioreis-contacts4-0 P {
   font-family: 'Montserrat', sans-serif;
-}
-#contacts3-17 .btn {
-  font-family: 'Montserrat', sans-serif;
-}
-#contacts3-17 P {
   color: #ffffff;
 }
-#contacts3-17 STRONG {
-  color: #fac51c;
+#marcioreis-contacts4-0 UL {
+  font-family: 'Montserrat', sans-serif;
 }
-#contacts3-17 H4 {
-  color: #fac51c;
+#marcioreis-contacts4-0 .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
